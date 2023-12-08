@@ -1,4 +1,8 @@
 defmodule AdventOfCode.CubeGame do
+  @moduledoc """
+  This module is the solution for the Advent of Code Day 2 challenge: https://adventofcode.com/2023/day/2/
+  """
+
   alias AdventOfCode.CubeGame.Game
   @spec is_game_possible?(Game.t(), list(tuple())) :: bool
   def is_game_possible?(%Game{sets: sets},
